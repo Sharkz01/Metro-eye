@@ -55,16 +55,21 @@ class HomeScreen extends React.Component {
                     <br />
                     <br />
                     <br />
-                        <p key={data.name}>This is the test home screen.</p>
-                    <p key={data.name}>Confirm Login Is Working</p>
-                    <p key={data.name}>Confirm Database Is Working</p>
-                    <p key={data.name}>Confirm Data Is Imported</p>
-                        <p key={data.name}>{data.name}</p>
-                        <p key={data.surname}>{data.surname}</p>
-                        <p key={data.age}>{data.age}</p>
+                    <p key={data.name}>This is the Test Home screen.</p>
+                    <p key={data.name}>To confirm Login Is Working</p>
+                    <p key={data.name}>To confirm Database Is Working</p>
+                    <p key={data.name}>To confirm Data Is Imported</p>
+                    <p key={data.name}>Mock Data Below</p>
+                        <p key={data.name}>Name : {data.name}</p>
+                        <p key={data.surname}>Surname : {data.surname}</p>
+                        <p key={data.age}>Age : {data.age}</p>
+                        
                         <p >Logged In</p>
     
-                        <button onClick={this.logout }>log out</button>
+                        
+                        <div>
+                         <Button variant="outlined" onClick={this.logout} >Logout</Button>
+                        </div>
                     
                 </div>
                 );
