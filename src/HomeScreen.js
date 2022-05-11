@@ -55,6 +55,10 @@ class HomeScreen extends React.Component {
                     <br />
                     <br />
                     <br />
+                        <p key={data.name}>This is the test home screen.</p>
+                    <p key={data.name}>Confirm Login Is Working</p>
+                    <p key={data.name}>Confirm Database Is Working</p>
+                    <p key={data.name}>Confirm Data Is Imported</p>
                         <p key={data.name}>{data.name}</p>
                         <p key={data.surname}>{data.surname}</p>
                         <p key={data.age}>{data.age}</p>
